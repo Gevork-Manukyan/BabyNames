@@ -62,7 +62,7 @@ public class BabyNames{
 			int y = 2008;
 			for(int i=0;i<=9;++i) {
 				  // construct the file name
-				String filename = "babynameranking" + y++ + ".txt"; 
+				String filename = "dataFiles/babynameranking" + y++ + ".txt"; 
 				infile = new File(filename);
 				
 				Scanner in = new Scanner(infile);
